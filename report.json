@@ -1,0 +1,52 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/tony/MSCS/fund_soft_arch_4_big_data/week5/rabbitmq-experiment/databases/milk/V1__initial_schema.sql",
+          "executionTime": 19
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "milk_test",
+      "warnings": [],
+      "timestamp": "2023-10-17T17:23:07.193557",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/tony/MSCS/fund_soft_arch_4_big_data/week5/rabbitmq-experiment/databases/milk/V1__initial_schema.sql",
+          "executionTime": 13
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "milk_development",
+      "warnings": [],
+      "timestamp": "2023-10-17T17:23:13.570182",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

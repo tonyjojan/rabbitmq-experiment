@@ -36,7 +36,7 @@ class SaferProductUpdateHandler(private val service: ProductService) : ChannelDe
             // TODO - MESSAGING - can we prevent a failure here?
             //  randomly throw an exception for bacon
             //  ensure the testBestCase test passes
-
+            randomlyThrowAnExceptionForBacon("bacon")
             channel!!.basicAck(message.envelope.deliveryTag, true)
 
         } catch (e: Exception) {
